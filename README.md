@@ -1,16 +1,41 @@
-# React + Vite
+#  Netflix Web App Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A *Netflix-inspired web application* that displays a grid of movies with interactive hover previews and full-screen playback. The app focuses on smooth animations, responsive layout, and a realistic streaming-like experience using modern web technologies.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*  *Movie Grid Interface:* Displays nine mock movies with creative layout flexibility.
+*  *Hover Preview:* Plays a background video preview when hovering over a movie (only one plays at a time).
+*  *Movie Playback:* Clicking a movie hides the main grid and plays the full video.
+*  *Back Navigation:* A transparent “Back” button appears during playback to return to the main page.
+*  *Responsive Design:* Fully adaptable layout for both desktop and mobile devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Project Setup
+
+###  Clone the Repository
+
+bash
+git clone <repo-url>
+cd netflix-clone
+
+
+###  Install Dependencies
+
+bash
+npm install
+
+
+###  Run the Development Server
+
+bash
+npm run dev
+
+
+###  Open in Browser
+
+Visit http://localhost:5173 (or the port shown in the terminal) to view the app.
